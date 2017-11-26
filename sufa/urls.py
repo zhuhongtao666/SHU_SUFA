@@ -20,4 +20,10 @@ from django.views.generic import TemplateView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name="index.html")),
+    url(r'^member/', include('apps.members.urls')),
+    url(r'^team/', include('apps.teams.urls')),
+    url(r'^college/', include('apps.colleges.urls')),
+    url(r'^match/', include('apps.matches.urls')),
+    url(r'^fanclub/', include('apps.fanclubs.urls')),
+    url(r'^activity/', include('apps.activities.urls')),
 ]
