@@ -1,0 +1,11 @@
+django
+django-material
+djangorestframework
+djangorestframework-jwt
+django-filter
+django-crispy-forms
+django-reversion
+django-formtools
+django-cors-headers
+django-redis
+requests
