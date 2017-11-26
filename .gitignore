@@ -1,0 +1,6 @@
+.idea
+*.cnf
+*.pyc
+media/
+video/
+node_modules/
